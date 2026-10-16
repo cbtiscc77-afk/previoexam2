@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background-color: #230968;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    margin: 0;
+}
+
+header a {
+    color: #fcfcfc;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 50px;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #bee3f8;
+}
+
+.contenedor {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e8f0;
+    min-height: 750px;
+}
+
+.card h2,
+.card h3 {
+    color: #c0bd1bfd;
+}
+
+.card img {
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.card img:hover {
+    transform: scale(1.08);
+}
+
+.badge-v1 {
+    display: inline-block;
+    background-color: #feebc8;
+    color: #c05621;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 1rem;
+    position: absolute ;
+    bottom: 20px ;
+    left: 0 ;
+    right: 0 ;
+    margin: 0 auto;
+    text-align: center;
+    width: max-content;
+    display: block ;
+
+}
+
+footer {
+    text-align: center;
+    color: #718096;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 14px;
+}
+
+.frame-menu {
+    width: auto;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.frame-menu h2 {
+    text-align: center;
+    color: #2b6cb0;
+    margin-top: 0;
+}
+
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+li a {
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+li a:hover {
+    color: #e2d40b;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #e2d40b;
+}
+
+p {
+    line-height: 1.6;
+}
